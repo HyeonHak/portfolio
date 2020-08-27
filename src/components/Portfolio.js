@@ -159,8 +159,12 @@ export default function Album() {
                   >
                     View
                   </Button>
-                  <Button size="small" color="primary">
-                    Detail
+                  <Button
+                    size="small"
+                    color="primary"
+                    href="https://drive.google.com/file/d/159bVqDbdbW0awtz8zHkKbiO4WIf-RXj8/view?usp=sharing"
+                  >
+                    보고서
                   </Button>
                 </CardActions>
               </Card>
@@ -182,11 +186,26 @@ export default function Album() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" color="primary">
-                    View
+                  <Button
+                    size="small"
+                    color="primary"
+                    href="https://drive.google.com/drive/folders/1TeS78EQn9CpkYoa4jV1bIKPh1A87ykNX?usp=sharing"
+                  >
+                    Preview
                   </Button>
-                  <Button size="small" color="primary">
-                    Detail
+                  <Button
+                    size="small"
+                    color="primary"
+                    href="https://drive.google.com/file/d/17RvCFCvVzR372y7i2vPBZyQfESNNEg2M/view?usp=sharing"
+                  >
+                    보고서
+                  </Button>
+                  <Button
+                    size="small"
+                    color="primary"
+                    href="https://github.com/HyeonHak/SoftwareMaestro_Controler"
+                  >
+                    Git
                   </Button>
                 </CardActions>
               </Card>
@@ -206,11 +225,19 @@ export default function Album() {
                   <Typography>핀테크 아카데미 개발 프로젝트</Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" color="primary">
+                  <Button
+                    size="small"
+                    color="primary"
+                    href="https://drive.google.com/file/d/1rU0Uc_PL4wCqeuFaK_z2baT3QH2jKJWt/view?usp=sharing"
+                  >
                     View
                   </Button>
-                  <Button size="small" color="primary">
-                    Detail
+                  <Button
+                    size="small"
+                    color="primary"
+                    href="https://drive.google.com/file/d/1JE3XPw_4TkTQk6k_tIfcld3YGvDI8rPC/view?usp=sharing"
+                  >
+                    보고서
                   </Button>
                   <Button
                     size="small"
@@ -223,35 +250,6 @@ export default function Album() {
               </Card>
             </Grid>
           </Grid>
-          {/* {cards.map((card) => (
-              <Grid item key={card} xs={12} sm={6} md={4}>
-                <Card className={classes.card}>
-                  <CardMedia
-                    className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
-                    title="Image title"
-                  />
-                  <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      Heading
-                    </Typography>
-                    <Typography>
-                      This is a media card. You can use this section to describe
-                      the content.
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
-                    <Button size="small" color="primary">
-                      View
-                    </Button>
-                    <Button size="small" color="primary">
-                      Edit
-                    </Button>
-                  </CardActions>
-                </Card>
-              </Grid>
-            ))}
-          </Grid> */}
         </Container>
       </main>
       {/* Footer */}
