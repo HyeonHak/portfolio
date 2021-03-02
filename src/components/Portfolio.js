@@ -125,13 +125,14 @@ export default function Album() {
                   <Typography>CNN을 이용한 인공지능 졸업작품</Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" color="primary" href="https://youtu.be/izKCOyBcSOE">
+                  <Button size="small" color="primary" href="https://youtu.be/izKCOyBcSOE" target="_blank">
                     View
                   </Button>
                   <Button
                     size="small"
                     color="primary"
                     href="https://drive.google.com/file/d/159bVqDbdbW0awtz8zHkKbiO4WIf-RXj8/view?usp=sharing"
+                    target="_blank"
                   >
                     보고서
                   </Button>
@@ -153,6 +154,7 @@ export default function Album() {
                     size="small"
                     color="primary"
                     href="https://drive.google.com/drive/folders/1TeS78EQn9CpkYoa4jV1bIKPh1A87ykNX?usp=sharing"
+                    target="_blank"
                   >
                     Preview
                   </Button>
@@ -160,10 +162,11 @@ export default function Album() {
                     size="small"
                     color="primary"
                     href="https://drive.google.com/file/d/17RvCFCvVzR372y7i2vPBZyQfESNNEg2M/view?usp=sharing"
+                    target="_blank"
                   >
                     보고서
                   </Button>
-                  <Button size="small" color="primary" href="https://github.com/HyeonHak/SoftwareMaestro_Controler">
+                  <Button size="small" color="primary" href="https://github.com/HyeonHak/SoftwareMaestro_Controler" target="_blank">
                     Git
                   </Button>
                 </CardActions>
@@ -184,6 +187,7 @@ export default function Album() {
                     size="small"
                     color="primary"
                     href="https://drive.google.com/file/d/1rU0Uc_PL4wCqeuFaK_z2baT3QH2jKJWt/view?usp=sharing"
+                    target="_blank"
                   >
                     View
                   </Button>
@@ -191,10 +195,16 @@ export default function Album() {
                     size="small"
                     color="primary"
                     href="https://drive.google.com/file/d/1JE3XPw_4TkTQk6k_tIfcld3YGvDI8rPC/view?usp=sharing"
+                    target="_blank"
                   >
                     보고서
                   </Button>
-                  <Button size="small" color="primary" href="https://github.com/transparent-funding-kisa/transparent-funding">
+                  <Button
+                    size="small"
+                    color="primary"
+                    href="https://github.com/transparent-funding-kisa/transparent-funding"
+                    target="_blank"
+                  >
                     Git
                   </Button>
                 </CardActions>
@@ -211,8 +221,11 @@ export default function Album() {
                   <Typography>팝콘 타임 클론 프로젝트</Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" color="primary" href="https://github.com/HyeonHak/hakFlix">
+                  <Button size="small" color="primary" href="https://github.com/HyeonHak/hakFlix" target="_blank">
                     Git
+                  </Button>
+                  <Button size="small" color="primary" href="https://hyeonhak.github.io/hakFlix/" target="_blank">
+                    View
                   </Button>
                 </CardActions>
               </Card>
