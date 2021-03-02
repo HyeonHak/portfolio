@@ -230,7 +230,7 @@ export default function Album() {
                 </CardActions>
               </Card>
             </Grid>
-
+            
             <Grid item key={4} xs={12} sm={6} md={4}>
               <Card className={classes.card}>
                 <CardMedia className={classes.cardMedia} image={require('../static/images/project5.png')} title="Image title" />
@@ -240,7 +240,15 @@ export default function Album() {
                   </Typography>
                   <Typography>Emoticbox 앱</Typography>
                 </CardContent>
-                <CardActions></CardActions>
+                <CardActions>
+                <Button size="small" color="primary" href="https://play.google.com/store/apps/details?id=com.emoticbox.store">
+                    Android
+                  </Button>
+                  <Button size="small" color="primary" href="https://apps.apple.com/kr/app/%EC%9D%B4%EB%AA%A8%ED%8B%B1%EB%B0%95%EC%8A%A4/id1535597509?app=itunes&ign-mpt=uo%3D4">
+                    Ios
+                  </Button>
+
+                </CardActions>
               </Card>
             </Grid>
           </Grid>
